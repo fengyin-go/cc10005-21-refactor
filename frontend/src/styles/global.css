@@ -33,3 +33,32 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .link { border: none; background: none; color: var(--brand); cursor: pointer; padding: 0; }
 .page-foot { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; color: var(--muted); }
 .error-text { color: #b42318; }
+.success-text { color: #067647; }
+.muted-text { color: #475467; }
+.foot-notes { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.intent-strip {
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  background: #fbfcfe;
+  font-size: 12px;
+  color: var(--muted);
+}
+.intent-current { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.intent-tag { font-weight: 600; color: #344054; }
+.intent-filter { color: #344054; }
+.intent-inline { margin-left: 6px; }
+.intent-spinner { color: var(--brand); }
+.intent-phase { padding: 1px 6px; border-radius: 999px; border: 1px solid var(--border); }
+.intent-history { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 8px; }
+.intent-history-label { color: #667085; }
+.intent-chip { padding: 1px 6px; border-radius: 999px; border: 1px solid var(--border); background: #fff; }
+.intent-chip.is-current { border-color: var(--brand); color: var(--brand); }
+.phase-fetching { color: var(--brand); border-color: var(--brand); }
+.phase-settled { color: #067647; border-color: #75e0a7; }
+.phase-failed { color: #b42318; border-color: #fda29b; }
+.phase-superseded { color: #98a2b3; text-decoration: line-through; }
+.row-pending { background: #f8fafc; }
+.row-busy { color: #b54708; margin-right: 4px; }
+.link.is-busy { color: #98a2b3; text-decoration: line-through; }
